@@ -1,0 +1,32 @@
+nav
+{
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid rgba(255,255,255,.2);
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    margin-bottom: 20px;
+}
+
+nav ul
+{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+nav ul li
+{
+    list-style: none;
+}
+nav ul li a{
+    display: block;
+    color: black;
+    padding: 0 15px;
+    line-height: 50px;
+}

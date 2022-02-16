@@ -1,0 +1,445 @@
+*{
+    /* background-color:#F3F2EF; */
+    margin: 0;
+    overflow:unset;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+body{
+    overflow-x: hidden;
+    z-index: 1;
+}
+
+
+#more {display: none;}
+#more1 {display: none;}
+#more2{
+    display: none;
+    margin-left: 20px;
+    line-height: 20px;
+    /* background-color: white; */
+    height: 190px;
+    margin-bottom: -30px;
+}
+
+.showtext{
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #b8b8b8;
+    border-radius: 10px;
+}
+
+body>div{
+    margin: 0;
+    background-color: #F3F2EF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.div1{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+
+    padding-top: 10px;
+    padding-bottom: 0;
+    background-color: white;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 5px;
+    margin: 0;
+    text-align: center;
+}
+
+
+.navbar1{
+    /* overflow-x: hidden ; */
+    text-align: center;
+    cursor: pointer;
+    color: rgb(92, 92, 92);
+    /* background-color: #ffffff; */
+}
+
+.body11{
+    /* overflow-x: hidden ; */
+    margin-top: 10px;
+    background-image: url(images/backgrounds/bg1.svg);
+    background-size: cover;
+    display: block;
+    height: 56.25px;
+}
+.body12{
+    /* overflow-x: visible; */
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.camicon{
+    /* overflow-x: hidden; */
+    cursor: pointer;
+    width: 70px;
+    margin-top: -35px;
+}
+.welcome1{
+    
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 3px;
+}
+.welcome1:hover{
+    text-decoration: underline 2px solid purple;
+}
+.welcome2{
+    margin: 0;
+    cursor: pointer;
+    font-size: 12px;
+    color: #0A66CE;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.welcome2:hover{
+    text-decoration: underline solid #0A66CE;
+}
+.showmore{
+    margin: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #4e4e4e;
+    
+}
+.showmore:hover{
+    background-color: #c2c2c2;
+}
+.body3{
+
+    
+    text-align: center;
+    /* background-color: #F3F2EF;
+    border-bottom:2px solid rgb(224, 224, 224) ;
+    border-top:2px solid rgb(224, 224, 224) ; */
+}
+.navbar1 i:hover{
+    color: #000000;
+}
+.searchtext{
+    cursor: pointer;
+    margin-left: -30px;
+    border-style: none;
+    border-radius: 35px;
+    height: 40px;
+    border: 1px solid #4e4e4e ;
+}
+.div1{
+    /* padding-top: 20px; */
+    gap: 40px;
+}
+
+.div1 p{
+    cursor: pointer;
+    font-size: 14px;
+}
+.a1{
+    color: #0A66CE;
+}
+.a2{
+    color: #04a75b;
+}
+.a3{
+    color: #e98b3d;
+}
+.a4{
+    color: #c80ace;
+}
+.sortline{
+    /* position: absolute; */
+    width: 100%;
+    height: 30px;
+    background-color:#F3F2EF;
+    z-index: -1;
+}
+
+.toptext{
+    font-size: 12px;
+    font-weight: bold;
+}
+::-webkit-input-placeholder { /* Edge */
+    color: rgb(107, 107, 107);
+    font-weight: 500;
+  }
+
+.body6{
+    padding: 20px;
+    text-align: center;
+    clear: both;
+    background-color: white;
+    border: 6px solid #F3F2EF;
+    text-align: center;
+      
+  }
+  .body6t{
+        margin-bottom: 0;
+        font-size: 19px;
+  }
+  .body6t1{
+      
+        margin: 0;
+        color: #4e4e4e;
+        font-size: 14px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+
+.body31{
+
+    
+    text-align: center;
+    /* background-color: #F3F2EF; */
+    border-bottom:2px solid rgb(224, 224, 224) ;
+    /* border-top:2px solid rgb(224, 224, 224) ; */
+}
+.discovermore{
+    padding: 10px;
+    margin-bottom: 0;
+    
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid rgb(192, 192, 192);
+    font-weight: 600;
+    font-size: 17px;
+    color: #0A66CE;
+    
+}
+.discovermore:hover{
+    background-color: #94a9f0;
+}
+.ad{
+    display: flex;
+    background-color: white;
+    border: 1px solid rgb(192, 192, 192);
+    flex-direction: column;
+}
+.addiv1{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.addiv11{
+    flex: 1;
+    width: 50px;
+}
+.addiv12{
+    flex: 1;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.spanpro{
+    cursor: pointer;
+    margin: 0%;
+    font-size: 14px;
+    font-weight: 100;
+}
+.decsp{
+    font-weight: 400;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+}
+.imgad{
+    cursor: pointer;
+    width: 100%;
+}
+.regbuttonad{
+    cursor: pointer;
+    color: #0A66CE;
+    padding: 10px;
+    margin-bottom: 0;
+    /* background-color: #F3F2EF; */
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+}
+.regbuttonad:hover{
+    background-color: #94a9f0;
+}
+.spacedivv{
+    text-align: center;
+    height: 10px;
+    background-color: #F3F2EF;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+}
+.camclass{
+    background-color: white;
+    height: fit-content;
+    z-index: 1;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    border: 1px solid rgb(192, 192, 192);
+}
+
+.sizeofp:hover{
+    border: 1px solid black;
+}
+.pname{
+    cursor: pointer;
+    text-align: center;
+}
+.pname:hover{
+    border: 1px solid blue;
+}
+.body313{
+
+    text-align: center;
+    /* background-color: #F3F2EF; */
+    
+    border-bottom:1px solid rgb(224, 224, 224) ;
+    border-top:1px solid rgb(224, 224, 224) ;
+}
+.discovermore1{
+   
+    border-radius: 10px;
+    margin: 0;
+    background-color: white;
+    border: 1px solid rgb(192, 192, 192);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 17px;
+    border: 1px solid #0A66CE;
+    color: #0A66CE;
+    
+}
+.discovermore1:hover{
+    background-color: #94a9f0;
+}
+.spacedivvv{
+    text-align: center;
+    height: 50px;
+    /* background-color: #F3F2EF; */
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+}
+#myBtn{
+    color: #0A66CE;
+    margin-top: 35px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#myBtn2{
+    color: #0A66CE;
+    margin-top: 35px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.news1{
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
+}
+.news2{
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+.news{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 17px;
+}
+#myBtn1{
+    color: #0A66CE;
+    /* margin-top: 35px; */
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.footer{
+    position: sticky;
+    top: 50px;
+    padding: 0%;
+    background-color: #F3F2EF;
+}
+.footer>p{
+    /* margin-top: 20px; */
+    color: #4e4e4e;
+    margin-bottom: 0px;
+    font-size: 12px;
+    padding-left: 30px;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    height: 125px;
+    
+    background-color: #F3F2EF;
+    padding-top: 20px;
+}
+.footer11{
+
+    font-size: 12px;
+    padding-top: 0;
+    margin-bottom: -10px;
+    color: #4e4e4e;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+.newsclass{
+  background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(192, 192, 192);
+}
+
+.seemoreobj{
+    margin-left: -20px;
+}
+.logoclass{
+
+    font-size: 21px;
+    color: rgb(119, 118, 118);
+
+}
+.logoclass:hover{
+    color: #000000;
+}
+
+
+
+@media (min-width: 992px) and (max-width : 1600px){
+    
+
+    .camclass{
+        background-color: white;
+        height: fit-content;
+        position: sticky;
+        top: 50px;
+        z-index: 1;
+        border-radius: 10px;
+        padding-bottom: 20px;
+        border: 1px solid rgb(192, 192, 192);
+    }
+    #more2{
+        display: block;
+    }
+    #myBtn2{
+        display: none;
+    }
+}
