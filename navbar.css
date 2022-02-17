@@ -1,9 +1,10 @@
 nav
 {
+    overflow: hidden;
     position: sticky;
     z-index: 2;
     top: 0;
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: center;
     height: 50px;
@@ -11,7 +12,7 @@ nav
     background-color: rgb(255, 255, 255);
     border-top: 1px solid rgba(255,255,255,.2);
     border-bottom: 1px solid rgba(255,255,255,.2);
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 nav ul
@@ -27,6 +28,6 @@ nav ul li
 nav ul li a{
     display: block;
     color: black;
-    padding: 0 15px;
+    padding: 0 10px;
     line-height: 50px;
 }
